@@ -1,0 +1,42 @@
+<suite name="EDM Regression">
+  <test name="Login">
+    <parameter name="Data" value=""/>
+    <classes>
+      <class name="tests.TestLoginPage">
+        <methods>
+          <include name="TestLoginFunctionality"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="LoginRead">
+    <parameter name="Data" value=""/>
+    <classes>
+      <class name="tests.TestLoginPageExcel">
+        <methods>
+          <include name="TestExcelReadingByTestCase1"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="Capture">
+    <parameter name="Data" value=""/>
+    <classes>
+      <class name="tests.TestCapturePage">
+        <methods>
+          <include name="TestCaptureDocumentNavigation"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="CaptureRead">
+    <parameter name="Data" value=""/>
+    <classes>
+      <class name="tests.TestCapturePageForm">
+        <methods>
+          <include name="TestCaptureFormFilling"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

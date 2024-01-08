@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Regression Suite" parallel="tests">
+	<parameter name="environment" value="http://edm-qa-web1/Enterprise_live"/>
+
+  	<test name="Login">
+    	<classes>
+    		<class name="tests.TestLoginPage" />
+    	</classes>
+    </test>
+
+<!--     <test name="Intray">
+    	<classes>
+
+    		<class name="tests.TestIntray_UAT5" />
+    	</classes>
+    </test>    
+    
+    <test name="MailStatus">
+    	<classes>
+
+    		<class name="tests.TestMailStatusUAT_5" />
+    	</classes>
+    </test>  -->
+    
+<!--     <test name="UAT_Latest">
+    	<classes>
+    		<class name="tests.AUAT_Lastest_DemoPresentationCases" />
+    	</classes>
+    </test> -->
+    
+<!--     <test name="UAT_Latest1">
+    	<classes>
+    		<class name="tests.ATestIntrayListRegression" />
+    	</classes>
+    </test> -->
+    
+   <!--  UAT Files Loc -->
+   
+<!--     <test name="AUAT">
+    	<classes>
+    		<class name="tests.AUAT_Demo_StakeHolder" />
+    	</classes>
+    </test> -->
+   
+    
+			<!-- UAT Cases -->
+    <test name="AUATDemo1">
+    	<classes>
+    		<class name="tests.AUAT_Automation1" />
+    	</classes>
+    </test>
+    
+    <test name="AUATDemo2">
+    	<classes>
+    		<class name="tests.AUAT_Automation2" />
+    	</classes>
+    </test>	
+ 
+ <test name="DocumentAndIntray">
+    	<classes>
+    		<class name="tests.TestDocumentList_UAT" />
+    	</classes>
+    </test>
+    <test name="Bundling">
+    	<classes>
+    		<class name="tests.TestBundling_UAT" />
+    	</classes>
+    </test>
+    
+        
+  <test name="RangeRouting">
+    	<classes>
+    		<class name="tests.TestRangeRouting_UAT" />
+    	</classes>
+    </test> 
+    
+    <test name="SystemAdmin">
+     <classes>
+    		<class name="tests.TestSystemAdministration_UAT" />
+    	</classes>
+    </test>
+
+    
+<!-- 	<test name="IntrayList">
+    	<classes>
+    		<class name="tests.ATestIntrayListRegression" />
+    	</classes>
+    </test> -->
+        
+<!--     <test name="CaseClaim">
+    	<classes>
+    		<class name="tests.TestClaimForm2" />
+    	</classes>
+    </test> -->
+    
+<!--     <test name="Linking">
+    	<classes>
+    		<class name="tests.TestRegressionDistribution" />
+    	</classes>
+    </test> -->
+    
+<!--     <test name="AdminClaimForm">
+    	<classes>
+    		<class name="tests.TestFolderFlag" />
+    	</classes>
+    </test> -->  
+<!--     <test name="BankHoliday">
+    	<classes>
+    		<class name="tests.ATestRereferenceDemo" />
+    	</classes>
+    </test> -->
+<!--     <test name="Rereference">
+    	<classes>
+    		<class name="tests.ATestRereferenceDemo" />
+    	</classes>
+    </test>
+        <test name="SecurityProfile">
+    	<classes>
+    		<class name="tests.ATestSecurityProfileDemo" />
+    	</classes> 
+    </test>  
+    <test name="FolderRestriction">
+    	<classes>
+    		<class name="tests.AtestFolderRestrictionDemo" />
+    	</classes>
+    </test>
+    <test name="DistributionDemo">
+    	<classes>
+    		<class name="tests.ATestDistributionDemo" />
+    	</classes> 
+    </test> -->   
+<!--     <test name="AdminDocument">
+    	<classes>
+    		<class name="tests.TestAdminDocumentSection" />
+    	</classes>
+    </test>
+    
+    
+   <test name="SmokeCases">
+    	<classes>
+    		<class name="tests.TestSmokeCases" />
+    	</classes>
+    	
+    </test>
+    
+  <test name="FileSystem">
+    	<classes>
+    		<class name="tests.TestAdminFileSystem" />
+    	</classes>
+    </test>
+
+	<test name="WebIntegration">
+    	<classes>
+    		<class name="tests.TestAdminWebIntegration" />
+    	</classes>
+    </test>  
+    
+    <test name="FolderSection">
+    	<classes>
+    		<class name="tests.TestAdminFolderSection" />
+    	</classes>
+    	
+    </test> 
+    
+   <test name="SecurityProfile">
+    	<classes>
+    		<class name="tests.TestSecurityProfile"/>
+    	</classes>
+    	
+    </test>   
+    
+    <test name="CapturePage">
+    	<classes>
+    		<class name="tests.TestCapturePage"/>
+    	</classes>
+    	
+    </test> -->
+    
+ <!--   <test name="AdminUser">
+    	<classes>
+    		<class name="tests.TestAdminUserSection"/>
+    	</classes>
+    	
+    </test>	
+        
+     <test name="DocumentTools">
+    	<classes>
+    		<class name="tests.TestDocumentTools"/>
+    	</classes>	
+    </test> 
+ -->
+ 
+<!--   <test name="IntrayTools">
+    	<classes>
+    		<class name="tests.TestIntrayTools"/>
+    	</classes>
+    	
+    </test>
+    
+     <test name="AdminPriorityManager">
+    	<classes>
+    		<class name="tests.TestAdminPriorityManager"/>
+    	</classes>
+    	
+    </test> 
+    
+   <test name="CaseManagement">
+    	<classes>
+    		<class name="tests.TestToolkitCaseManagement"/>
+    	</classes>
+    	
+     </test>
+      
+    <test name="FolderRestriction">
+    	<classes>
+    		<class name="tests.TestFolderRestriction"/>
+    	</classes>
+    	
+    </test>  
+    
+    <test name="JobRoleSecurity">
+    	<classes>
+    		<class name="tests.TestAdminJobRole"/>
+    	</classes>
+    	
+    </test>
+    
+   <test name="FolderFlag">
+    	<classes>
+    		<class name="tests.TestFolderFlag"/>
+    	</classes>
+    	
+    </test> 
+    
+    <test name="UserSecurityAccess">
+    	<classes>
+    		<class name="tests.TestUserSecurityAccess"/>
+    	</classes>
+   </test>  -->
+   
+<!--       <test name="CaseManagement">
+    	<classes>
+    		<class name="tests.TestAdminUserSection"/>
+    	</classes>
+    	
+     </test> -->
+     
+<!--      <test name="Capture">
+    	<classes>
+    		<class name="tests.ATestRegressionCapture"/>
+    	</classes>
+    	
+     </test>  
+           <test name="Capture1">
+    	<classes>
+    		<class name="tests.ATestRegressionCapture1"/>
+    	</classes>
+     </test> -->
+ <!--     <test name="SecurityProfile">
+    	<classes>
+    		<class name="tests.TestRegressionSecurityProfile"/>
+    	</classes>    	
+     </test>
+    <test name="FolderRestriction">
+    	<classes>
+    		<class name="tests.TestRegressionAdminFolderRestriction"/>
+    	</classes>    	
+     </test>  
+     <test name="Rereference">
+    	<classes>
+    		<class name="tests.ATestRereferenceRegression"/>
+    	</classes>    	
+     </test> -->
+     
+<!--      <test name="Distribution">
+    	<classes>
+    		<class name="tests.TestRegressionDistribution"/>
+    	</classes>    	
+     </test>   -->   
+          
+<!--    <test name="PublicAccess">
+    	<classes>
+    		<class name="tests.TestPublicAccess"/>
+    	</classes>
+   </test> -->   
+  <!-- Test -->
+  
+    <!-- <listeners>
+		<listener class-name="utils.TestListener" />
+		<listener class-name="main.EDRM.hybridFramework.helper.listener.RetryListener" />
+ 	</listeners> -->
+</suite> 

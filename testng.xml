@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+	<parameter name="environment" value="http://edm-app-2012/Enterprise_live"/>
+  	<test thread-count="1" name="Regression">
+   
+    <classes>
+        <class name="tests.TestLoginPage"/>  
+        <class name="tests.TestCapturePage">
+       <methods>
+       <include name="TestAddDummyReferenceAll"></include>
+    <!--    <include name="TestFolderTranslateDummyMiscRef"></include>
+       <include name="TestFolderTranslateDummyPropRef"></include> -->
+       </methods>
+       </class> 
+ 	  </classes>
+
+  </test> <!-- Test -->
+  
+    <!-- <listeners>
+		<listener class-name="utils.TestListener" />
+		<listener class-name="main.EDRM.hybridFramework.helper.listener.RetryListener" />
+ 	</listeners> -->
+</suite> <!-- Suite -->

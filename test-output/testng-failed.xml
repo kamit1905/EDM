@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Regression Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="environment" value="http://edm-qa-web1/Enterprise_live"/>
+  <test thread-count="1" parallel="tests" name="Login(failed)">
+    <classes>
+      <class name="tests.TestLoginPage">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setupClass"/>
+          <include name="afterMethod"/>
+          <include name="TestLoginFunctionality"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- tests.TestLoginPage -->
+    </classes>
+  </test> <!-- Login(failed) -->
+  <test thread-count="1" parallel="tests" name="AdminDocument(failed)">
+    <classes>
+      <class name="tests.TestAdminDocumentSection">
+        <methods>
+          <include name="TestAddParagraphNotesFromAdministration"/>
+          <include name="TestUpdateDocumentType"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="TestMoveDocumentTypeFromInactiveToActive"/>
+          <include name="setupClass"/>
+          <include name="checkEditableStatusOfDocument"/>
+          <include name="afterMethod"/>
+          <include name="DeleteNoteStandardTexts"/>
+          <include name="CaptureDocumentAndAddNotesFromLandingPage"/>
+          <include name="TestMakeDocumentTypeInactive"/>
+          <include name="TestAddDocumentType"/>
+          <include name="TestAddMemoDocumentType"/>
+          <include name="beforeMethod"/>
+          <include name="TestActiveInactiveDocTypeInDropdown"/>
+        </methods>
+      </class> <!-- tests.TestAdminDocumentSection -->
+    </classes>
+  </test> <!-- AdminDocument(failed) -->
+  <test thread-count="1" parallel="tests" name="SmokeCases(failed)">
+    <classes>
+      <class name="tests.TestSmokeCases">
+        <methods>
+          <include name="TestAddUserToTeam"/>
+          <include name="afterTest"/>
+          <include name="TestAddProtectiveMarker"/>
+          <include name="TestCreateTeam"/>
+          <include name="beforeSuite"/>
+          <include name="TestCreateRole"/>
+          <include name="afterMethod"/>
+          <include name="setupClass"/>
+          <include name="TestCreateAnotherTeam"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- tests.TestSmokeCases -->
+    </classes>
+  </test> <!-- SmokeCases(failed) -->
+  <test thread-count="1" parallel="tests" name="FileSystem(failed)">
+    <classes>
+      <class name="tests.TestAdminFileSystem">
+        <methods>
+          <include name="EditBankHoliday"/>
+          <include name="TestAddNewCacheServer"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="AddBankHoliday"/>
+          <include name="TestGoToFlexibleIndexAdmin"/>
+          <include name="setupClass"/>
+          <include name="afterMethod"/>
+          <include name="EditCacheServer"/>
+          <include name="VerifyErrorMessageInCacheServer"/>
+          <include name="beforeMethod"/>
+          <include name="DeleteBankHoliday"/>
+        </methods>
+      </class> <!-- tests.TestAdminFileSystem -->
+    </classes>
+  </test> <!-- FileSystem(failed) -->
+  <test thread-count="1" parallel="tests" name="WebIntegration(failed)">
+    <classes>
+      <class name="tests.TestAdminWebIntegration">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterMethod"/>
+          <include name="DeleteWebIntegration"/>
+          <include name="EditWebIntegration"/>
+          <include name="AccessLinkFromDocument"/>
+          <include name="beforeMethod"/>
+          <include name="AddWebIntegration"/>
+          <include name="setupClass"/>
+        </methods>
+      </class> <!-- tests.TestAdminWebIntegration -->
+    </classes>
+  </test> <!-- WebIntegration(failed) -->
+  <test thread-count="1" parallel="tests" name="FolderSection(failed)">
+    <classes>
+      <class name="tests.TestAdminFolderSection">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="TestDataDownloadFolder2RefFixedLength"/>
+          <include name="TestDataDownloadFolder2RefCSV"/>
+          <include name="TestDataDownloadFolder1RefFixedLength"/>
+          <include name="afterMethod"/>
+          <include name="TestDataDownloadFolder1RefCSV"/>
+          <include name="beforeMethod"/>
+          <include name="setupClass"/>
+        </methods>
+      </class> <!-- tests.TestAdminFolderSection -->
+    </classes>
+  </test> <!-- FolderSection(failed) -->
+  <test thread-count="1" parallel="tests" name="SecurityProfile(failed)">
+    <classes>
+      <class name="tests.TestSecurityProfile">
+        <methods>
+          <include name="AddAnotherSecurityProfile"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="VerifySecurityRightAfterOverriding"/>
+          <include name="AddAnotherNewUserWithSomeSecurityRight"/>
+          <include name="EditSecurityRightInProfile"/>
+          <include name="VerifySecurityRightsInUsers"/>
+          <include name="afterMethod"/>
+          <include name="setupClass"/>
+          <include name="OverrideSecurityProfileRightToEXistingUser"/>
+          <include name="EditSecurityRightOnceAgainInProfile"/>
+          <include name="AddNewUserAndCheckSecurityRight"/>
+          <include name="VerifySecurityRightsOnceAgainInUsers"/>
+          <include name="AddSecurityProfile"/>
+          <include name="EditSecurityProfile"/>
+          <include name="DeleteSecurityProfile"/>
+          <include name="AddSecurityRightWithoutOverriding"/>
+          <include name="beforeMethod"/>
+          <include name="DeleteProfileAndVerifyErrorMessage"/>
+          <include name="VerifySecurityRightWithoutOverriding"/>
+        </methods>
+      </class> <!-- tests.TestSecurityProfile -->
+    </classes>
+  </test> <!-- SecurityProfile(failed) -->
+  <test thread-count="1" parallel="tests" name="CapturePage(failed)">
+    <classes>
+      <class name="tests.TestCapturePage">
+        <methods>
+          <include name="TestFolderTranslateDummyAccountRef"/>
+          <include name="afterTest"/>
+          <include name="TestMoreSearchIntrayList"/>
+          <include name="TestFolderTranslateMiscRef"/>
+          <include name="setupClass"/>
+          <include name="TestCaptureMemoIndividualDocument"/>
+          <include name="TestCaptureMemoTeamDocument"/>
+          <include name="TestFolderTranslatePropRef"/>
+          <include name="TestCaptureDocumentNavigation"/>
+          <include name="TestSearchDocInTraylistandChangeStatus"/>
+          <include name="TestCaptureFormFillingMultipleDocsPrereq"/>
+          <include name="TestFolderTranslateDummyPropRef"/>
+          <include name="TestCaptureMemoDifferentFileSystem"/>
+          <include name="TestTeamDocumentIntrayListMoreSearch"/>
+          <include name="beforeSuite"/>
+          <include name="TestDeleteDummyReference"/>
+          <include name="afterMethod"/>
+          <include name="TestFolderTranslateAccountRef"/>
+          <include name="TestMailStatusDocumentIntrayListMoreSearch"/>
+          <include name="TestCaptureMemoAutomaticDocument"/>
+          <include name="TestAddDummyReferenceAll"/>
+          <include name="TestMoreSearchDocumentList"/>
+          <include name="TestCaptureFormWithTeamAndValidations"/>
+          <include name="TestFolderTranslateDummyMiscRef"/>
+          <include name="TestCaptureFormFillingWithCreateDocument"/>
+          <include name="TestSearchDocInTraylistandChangeStatusToInprogress"/>
+          <include name="beforeMethod"/>
+          <include name="TestCaptureMemoNavigationViwer"/>
+          <include name="TestCopyDocument"/>
+        </methods>
+      </class> <!-- tests.TestCapturePage -->
+    </classes>
+  </test> <!-- CapturePage(failed) -->
+  <test thread-count="1" parallel="tests" name="AdminUser(failed)">
+    <classes>
+      <class name="tests.TestAdminUserSection">
+        <methods>
+          <include name="TestVerifyPrinterFileSystem"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="setupClass"/>
+          <include name="TestViewUsersLandingPage"/>
+          <include name="afterMethod"/>
+          <include name="TestAddedPrinterShownUnderAddTeam"/>
+          <include name="TestContentAuditActionsUsersLandingPage"/>
+          <include name="TestTeamLandingFromUsersLandingPage"/>
+          <include name="TestCancelChangesFromUsersLandingPage"/>
+          <include name="TestCheckedOutItemUsersLandingPage"/>
+          <include name="TestEditOnUsersLandingPage"/>
+          <include name="beforeMethod"/>
+          <include name="TestAddPrinters"/>
+        </methods>
+      </class> <!-- tests.TestAdminUserSection -->
+    </classes>
+  </test> <!-- AdminUser(failed) -->
+  <test thread-count="1" parallel="tests" name="DocumentTools(failed)">
+    <classes>
+      <class name="tests.TestDocumentTools">
+        <methods>
+          <include name="TestCheckedOutDocListUnderCapture"/>
+          <include name="TestDocumentVersionFunctionalityCheckedOut"/>
+          <include name="TestRemoveLinkingUnderReferencing"/>
+          <include name="afterTest"/>
+          <include name="TestSetTagsOnReIndexAssociatedDocs"/>
+          <include name="TestDeleteTagsAssociatedDocs"/>
+          <include name="TestLaunchLinkingUnderReferencing"/>
+          <include name="TestViewLinkingUnderReferencing"/>
+          <include name="TestDocumentNotCheckedOutCurrently"/>
+          <include name="TestOneParentMultiChildTagsOn"/>
+          <include name="TestReReferenceFlow"/>
+          <include name="TestCheckedOutDocListUnderAdmin"/>
+          <include name="TestDocumentDeleteCancelPopup"/>
+          <include name="setupClass"/>
+          <include name="TestKeepReferenceOnDocReRefrence"/>
+          <include name="TestReindexDocument"/>
+          <include name="TestAddTags"/>
+          <include name="TestSetTagsOnMoreSearch"/>
+          <include name="TestEditDeleteDisabledTags"/>
+          <include name="beforeSuite"/>
+          <include name="TestCancelOnDocReRefrence"/>
+          <include name="TestClearOnDocReRefrence"/>
+          <include name="ToAssignNextMailItemsToUser"/>
+          <include name="afterMethod"/>
+          <include name="TestEditTags"/>
+          <include name="TestDocumentSearchManageTags"/>
+          <include name="TestCheckedOutFunctionality"/>
+          <include name="TestDocumentLinkingIntray"/>
+          <include name="TestRemoveTagsOnReIndexAssociatedDocs"/>
+          <include name="TestDeleteTags"/>
+          <include name="TestDifferentFileSystemOnDocReRefrence"/>
+          <include name="TestFolderRefAddInDocReRefrence"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- tests.TestDocumentTools -->
+    </classes>
+  </test> <!-- DocumentTools(failed) -->
+  <test thread-count="1" parallel="tests" name="IntrayTools(failed)">
+    <classes>
+      <class name="tests.TestIntrayTools">
+        <methods>
+          <include name="afterTest"/>
+          <include name="TestIntrayDocumentLock"/>
+          <include name="TestDistributionMultiReferral"/>
+          <include name="TestDistributionApplyButtonDisable"/>
+          <include name="TestExportMetadataValidation"/>
+          <include name="TestDistributionMultiReferralForDifferentFileSystem"/>
+          <include name="TestMyIntrayEditMetada"/>
+          <include name="TestDocumentLandingPageDocumentDelete"/>
+          <include name="TestMyIntrayEditMetadaCancelFunctionality"/>
+          <include name="TestExportDocumentPdfOnly"/>
+          <include name="TestDistributionEscalateSingleUser"/>
+          <include name="TestExportedMetadataFunctionality"/>
+          <include name="TestIntrayNextMailBtnAllocationOldestFirst"/>
+          <include name="beforeSuite"/>
+          <include name="TestIntrayAssociatedFunctionality"/>
+          <include name="TestIntrayEditMetada"/>
+          <include name="TestIntrayNextMailAvailablity"/>
+          <include name="TestIntrayNextMailBtnAllocationOldestSecond"/>
+          <include name="afterMethod"/>
+          <include name="TestDistributionCancelFunctionality"/>
+          <include name="TestIntrayAddButtonFunctionality"/>
+          <include name="TestIntrayDocumentUnlock"/>
+          <include name="TestExportDocMetadataFunctionality"/>
+          <include name="TestDistributionFunctionality"/>
+          <include name="TestVerifyErrorMessageForLockedDocument"/>
+          <include name="beforeMethod"/>
+          <include name="setupClass"/>
+        </methods>
+      </class> <!-- tests.TestIntrayTools -->
+    </classes>
+  </test> <!-- IntrayTools(failed) -->
+  <test thread-count="1" parallel="tests" name="AdminPriorityManager(failed)">
+    <classes>
+      <class name="tests.TestAdminPriorityManager">
+        <methods>
+          <include name="TestCampaignAscendingOrderFunctionality"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterMethod"/>
+          <include name="TestWeightedValuesOnPriorityCampaign"/>
+          <include name="setupClass"/>
+          <include name="TestCampaignDescendingOrderFunctionality"/>
+          <include name="TestCampaignDropdownNotShownOnIntraySearch"/>
+          <include name="TestCampaignDropdownAvailability"/>
+          <include name="TestAddCampaign"/>
+          <include name="TestAddCampaignToUser"/>
+          <include name="TestDeleteCampaign"/>
+          <include name="TestEditButtonWeightedValuesCampaign"/>
+          <include name="TestRemoveCampaignToUser"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- tests.TestAdminPriorityManager -->
+    </classes>
+  </test> <!-- AdminPriorityManager(failed) -->
+  <test thread-count="1" parallel="tests" name="CaseManagement(failed)">
+    <classes>
+      <class name="tests.TestToolkitCaseManagement">
+        <methods>
+          <include name="TestEditRequiredOnAddDocTemplateContent"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="TestVerifyCaseCapturedSubDocAcceptance"/>
+          <include name="setupClass"/>
+          <include name="TestPartMatchTemplateChangesStatusMatchedFromPending"/>
+          <include name="afterMethod"/>
+          <include name="TestDocumentTypeAdditionTemplateContent"/>
+          <include name="TestVerifyCaseCapturedInAspect"/>
+          <include name="TestVerifyCaseSubDocAccessed"/>
+          <include name="TestVerifyInstigateIntrayCase"/>
+          <include name="TestVerifyUnassignSubDocument"/>
+          <include name="TestAllocationOfTwoMasterAndSubDocument"/>
+          <include name="TestMailStatusChangedVerified"/>
+          <include name="VerifySubDocAllocationUsingTwoMasterDoc"/>
+          <include name="TestAddSubFolderTemplateContent"/>
+          <include name="TestAutomaticAllocationOfMasterAndSubDocument"/>
+          <include name="beforeMethod"/>
+          <include name="TestVerifyEditionTemplate"/>
+        </methods>
+      </class> <!-- tests.TestToolkitCaseManagement -->
+    </classes>
+  </test> <!-- CaseManagement(failed) -->
+  <test thread-count="1" parallel="tests" name="JobRoleSecurity(failed)">
+    <classes>
+      <class name="tests.TestAdminJobRole">
+        <methods>
+          <include name="afterTest"/>
+          <include name="VerifyUsersCascadedChanges"/>
+          <include name="beforeSuite"/>
+          <include name="AddNewUserAndVerifyBubbledMessage"/>
+          <include name="AddJobRoleForSecurityProfile"/>
+          <include name="DeleteJobRoleAndNotCascadeChangesToUser"/>
+          <include name="afterMethod"/>
+          <include name="AddJobRole"/>
+          <include name="ConfigureJobRoleForDocType"/>
+          <include name="DeleteJobRoleAndCascadeChangesToUser"/>
+          <include name="DeleteJobRoleAndVerifyErrorMessage"/>
+          <include name="AddSecurityProfileAndJobRole"/>
+          <include name="AddNewUserAndModifySecurityRightAndVerifyErrorMsg"/>
+          <include name="setupClass"/>
+          <include name="DeleteJobRoleAssociatedWithSecurityProfileAndUser"/>
+          <include name="EditJobRole"/>
+          <include name="VerifyJobRoleAfterOveririding"/>
+          <include name="beforeMethod"/>
+          <include name="DeleteJobRole"/>
+        </methods>
+      </class> <!-- tests.TestAdminJobRole -->
+    </classes>
+  </test> <!-- JobRoleSecurity(failed) -->
+  <test thread-count="1" parallel="tests" name="FolderFlag(failed)">
+    <classes>
+      <class name="tests.TestFolderFlag">
+        <methods>
+          <include name="TestAddProtectiveMarker"/>
+          <include name="TestCreateFolder3Ref"/>
+          <include name="EditFolder3EntityAndVerifyValues"/>
+          <include name="afterTest"/>
+          <include name="TestCreateFolder1Ref"/>
+          <include name="beforeSuite"/>
+          <include name="DeleteFolder2Entity"/>
+          <include name="DeleteFolder3Entity"/>
+          <include name="TestCreateFolder2Ref"/>
+          <include name="afterMethod"/>
+          <include name="TestDeleteDummyReferenceWithAutoIncrement"/>
+          <include name="TestFolderFlagWithCharacter"/>
+          <include name="DeleteFolder1Entity"/>
+          <include name="TestCaptureDummyReferenceAll"/>
+          <include name="TestAddDummyReferenceAll"/>
+          <include name="TestAddDummyReferenceWithAutoincrement"/>
+          <include name="setupClass"/>
+          <include name="TestDeleteDummyReference"/>
+          <include name="TestCaptureFormFillingWithProtectiveMarker"/>
+          <include name="TestProtectiveMarkerDeletion"/>
+          <include name="EditFolder2EntityAndVerifyValues"/>
+          <include name="beforeMethod"/>
+          <include name="EditFolder1EntityAndVerifyValues"/>
+        </methods>
+      </class> <!-- tests.TestFolderFlag -->
+    </classes>
+  </test> <!-- FolderFlag(failed) -->
+  <test thread-count="1" parallel="tests" name="FolderRestriction(failed)">
+    <classes>
+      <class name="tests.TestFolderRestriction">
+        <methods>
+          <include name="SearchAnotherAccountRefAndVerifyErrorMessage"/>
+          <include name="VerifyErrorMessage"/>
+          <include name="VerifyErrorMessageAfterRestrictingGroup"/>
+          <include name="afterTest"/>
+          <include name="VerifyErrorMessageAfterFolderRestriction"/>
+          <include name="AddSecurityRestrictionGroup"/>
+          <include name="DeleteFolderRestriction"/>
+          <include name="DeleteFolderRestriction"/>
+          <include name="AddFoldeRestriction"/>
+          <include name="VerifyMessageAfterGivingGrantPermission"/>
+          <include name="AddFolderRestrictionForGroups"/>
+          <include name="CaptureDocumentAndSearchDocument"/>
+          <include name="AddSecurityRestrictionTypeAsGrantForGroupTo"/>
+          <include name="EditSecurityPermissionOfUser"/>
+          <include name="UpdateUserAndAddRestriction"/>
+          <include name="ChangeRestrictionTypeForUser"/>
+          <include name="beforeSuite"/>
+          <include name="afterMethod"/>
+          <include name="UpdateUserAndAddGrantRestrictionToUser"/>
+          <include name="UpdateUserAndChangeRestrictionTypeForUser"/>
+          <include name="setupClass"/>
+          <include name="VerifiyRestricted"/>
+          <include name="DeleteSecurityRestrictionGroup"/>
+          <include name="VerifyErrorMessageWhileCapturing"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- tests.TestFolderRestriction -->
+    </classes>
+  </test> <!-- FolderRestriction(failed) -->
+  <test thread-count="1" parallel="tests" name="UserSecurityAccess(failed)">
+    <classes>
+      <class name="tests.TestUserSecurityAccess">
+        <methods>
+          <include name="setupClass"/>
+          <include name="TestLinkingAvailableSecurityUnchecked"/>
+          <include name="afterTest"/>
+          <include name="UpdateDocumentTypeSecurityToDefault"/>
+          <include name="beforeSuite"/>
+          <include name="TestDistributionSecurityRight"/>
+          <include name="TestLinkingAvailableSecurityChecked"/>
+          <include name="afterMethod"/>
+          <include name="TestCaptureFormFilling"/>
+          <include name="TestVerifyBrowseFileSystem"/>
+          <include name="EditUserSecurityLevelOnceAgain"/>
+          <include name="UpdateDocumentTypeSecurity"/>
+          <include name="VerifyNextEmailButton"/>
+          <include name="EditUserSecurityLevel"/>
+          <include name="VerifyCheckInRight"/>
+          <include name="beforeMethod"/>
+          <include name="VerifyErrorInDistribute"/>
+        </methods>
+      </class> <!-- tests.TestUserSecurityAccess -->
+    </classes>
+  </test> <!-- UserSecurityAccess(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->

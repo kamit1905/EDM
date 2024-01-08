@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-16T16:13:09 IST" name="Default suite" finished-at="2023-11-16T16:13:10 IST" duration-ms="1286">
+    <groups>
+    </groups>
+    <test started-at="2023-11-16T16:13:09 IST" name="Default test" finished-at="2023-11-16T16:13:10 IST" duration-ms="1286">
+      <class name="tests.ATestNg_Sample">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:tests.ATestNg_Sample@2663e964]" started-at="2023-11-16T16:12:59 IST" name="beforeSuite" finished-at="2023-11-16T16:13:09 IST" duration-ms="10237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.ATestNg_Sample@2663e964]" started-at="2023-11-16T16:13:09 IST" name="beforeMethod" finished-at="2023-11-16T16:13:09 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ATestNg_Sample.Apple()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Apple()[pri:1, instance:tests.ATestNg_Sample@2663e964]" started-at="2023-11-16T16:13:09 IST" name="Apple" finished-at="2023-11-16T16:13:09 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Apple -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.ATestNg_Sample@2663e964]" started-at="2023-11-16T16:13:09 IST" name="afterMethod" finished-at="2023-11-16T16:13:10 IST" duration-ms="918" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Apple status=SUCCESS method=ATestNg_Sample.Apple()[pri:1, instance:tests.ATestNg_Sample@2663e964] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.ATestNg_Sample@2663e964]" started-at="2023-11-16T16:13:10 IST" name="beforeMethod" finished-at="2023-11-16T16:13:10 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ATestNg_Sample.Cat()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Cat()[pri:2, instance:tests.ATestNg_Sample@2663e964]" started-at="2023-11-16T16:13:10 IST" name="Cat" finished-at="2023-11-16T16:13:10 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cat -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.ATestNg_Sample@2663e964]" started-at="2023-11-16T16:13:10 IST" name="afterMethod" finished-at="2023-11-16T16:13:10 IST" duration-ms="142" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Cat status=SUCCESS method=ATestNg_Sample.Cat()[pri:2, instance:tests.ATestNg_Sample@2663e964] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.ATestNg_Sample@2663e964]" started-at="2023-11-16T16:13:10 IST" name="beforeMethod" finished-at="2023-11-16T16:13:10 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ATestNg_Sample.Ball()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Ball()[pri:3, instance:tests.ATestNg_Sample@2663e964]" started-at="2023-11-16T16:13:10 IST" name="Ball" finished-at="2023-11-16T16:13:10 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ball -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.ATestNg_Sample@2663e964]" started-at="2023-11-16T16:13:10 IST" name="afterMethod" finished-at="2023-11-16T16:13:10 IST" duration-ms="91" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Ball status=SUCCESS method=ATestNg_Sample.Ball()[pri:3, instance:tests.ATestNg_Sample@2663e964] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.ATestNg_Sample@2663e964]" started-at="2023-11-16T16:13:10 IST" name="afterTest" finished-at="2023-11-16T16:13:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.ATestNg_Sample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
