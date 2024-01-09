@@ -10,7 +10,7 @@ import org.testng.Assert;
 import main.EDRM.hybridFramework.helper.browserConfigurations.config.ObjectReader;
 import main.EDRM.hybridFramework.helper.browserConfigurations.config.PropertyReader;
 
-public class ATestAutomationDemo {  //New Day2
+public class ATestAutomationDemo {  //New
 	
 	public static void main(String[] args) throws InterruptedException {
 		ObjectReader.reader = new PropertyReader();
