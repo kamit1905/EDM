@@ -13,6 +13,8 @@ import main.EDRM.hybridFramework.helper.browserConfigurations.config.PropertyRea
 public class ATestAutomationDemo {  //New
 	//Add one line
 	
+	//Next megre practice
+	
 	public static void main(String[] args) throws InterruptedException {
 		ObjectReader.reader = new PropertyReader();
 		
