@@ -20,7 +20,8 @@ public class ATestAutomationDemo {  //New
 	public static void main(String[] args) throws InterruptedException {
 		ObjectReader.reader = new PropertyReader();
 		
-		//Adding
+		//Merge conflit checking
+
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		driver.manage().window().maximize();
