@@ -15,8 +15,6 @@ public class ATestAutomationDemo {  //New
 	
 	//Next megre practice
 	
-	//Test merge after revert
-	
 	public static void main(String[] args) throws InterruptedException {
 		ObjectReader.reader = new PropertyReader();
 		
