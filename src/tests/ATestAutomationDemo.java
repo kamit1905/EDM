@@ -21,7 +21,7 @@ public class ATestAutomationDemo {  //New
 		ObjectReader.reader = new PropertyReader();
 		
 		//Merge conflit checking
-		
+
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		driver.manage().window().maximize();
