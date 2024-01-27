@@ -25,7 +25,7 @@ public class ATestAutomationDemo {  //New
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		driver.manage().window().maximize();
-		
+		//Here something is going to add
 //		driver.findElement(By.xpath("//input[@name='enter-name']")).sendKeys("NECDM");
 //		
 //		driver.findElement(By.xpath("//input[@id='alertbtn']")).click();
